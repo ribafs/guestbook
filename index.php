@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+<div class="container">
 <?php
 
 $title = "Guest Book";
@@ -126,3 +128,4 @@ include 'tpl/header.tpl';
 include 'tpl/index.tpl';
 include 'tpl/footer.tpl';
 ?>
+</div>

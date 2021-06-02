@@ -3,7 +3,7 @@
 $ms_host = "localhost";
 $ms_user = "root";
 $ms_pass = "";
-$ms_db = "guestbook";
+$ms_db = "testes";
 $charset = "utf8";
 
 $dsn = "mysql:host=$ms_host;dbname=$ms_db;charset=$charset";
