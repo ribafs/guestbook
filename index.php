@@ -2,16 +2,16 @@
 
 $title = "Guest Book";
 
-include '/config.php';
-include '/db_config.php';
-include '/admin/auth.php';
+include 'config.php';
+include 'db_config.php';
+include 'admin/auth.php';
 
 //Init variable
 $errors = '';
 $msg_after_refresh = isset($_POST['message']) ? $_POST['message'] : '';
 $posts = 0;
 $isadd = (isset($_POST['add']))? true : false;
-////
+
 
 //After click on "Add"
 if($isadd)
@@ -122,7 +122,7 @@ $_SESSION['captcha'] = rand(1000,9999);
 $captcha = $_SESSION['captcha'];
 ////
 
-include '/tpl/header.tpl';
-include '/tpl/index.tpl';
-include '/tpl/footer.tpl';
+include 'tpl/header.tpl';
+include 'tpl/index.tpl';
+include 'tpl/footer.tpl';
 ?>
